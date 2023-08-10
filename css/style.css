@@ -1,429 +1,503 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /** nav**/
-header{
-    height: 250px;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: end;
+header {
+  height: 250px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: end;
 }
-header nav{
-    position: sticky;
-    top: 0;
+header nav {
+  position: sticky;
+  top: 0;
 }
-header nav ul{
-    list-style: none;
-    
-    position: sticky;
-    top: 0;}
+header nav ul {
+  list-style: none;
 
-header nav ul li{
-    display: flex; 
-    justify-content: space-around;
-    position: sticky;
-    top: 0;
-    
+  position: sticky;
+  top: 0;
 }
 
-.motor-company-d{
-    display: flex;
-    justify-content:space-around;
-    align-items: end;
-    
-    
-    
-}
-.llamenos-d{
-    display: flex;
-    justify-content: end;
-    align-items:end;
+header nav ul li {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
 }
 
-header nav ul li a{
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+.motor-company-d {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+}
+.llamenos-d {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
 
-    padding: 18px;
-    border-radius: 5px;
-    position: sticky;
-    top: 0;
+header nav ul li a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+
+  padding: 18px;
+  border-radius: 5px;
+  position: sticky;
+  top: 0;
 }
 /** header**/
-.logo{
-    width: 200px;
-    height: 150px;
-    display: inline-block;
+.logo {
+  width: 200px;
+  height: 150px;
+  display: inline-block;
 }
-body header div h1{
-    color: rgb(48, 49, 54);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 300%;
-    display: inline block;
-    text-align: center;
+body header div h1 {
+  color: rgb(48, 49, 54);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 300%;
+  display: inline block;
+  text-align: center;
 }
-.telefono{
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    text-align: right;
+.telefono {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  text-align: right;
 }
 
-body header div h2{
-    color: rgb(48, 49, 54);
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-    text-align: right;
+body header div h2 {
+  color: rgb(48, 49, 54);
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  text-align: right;
 }
 
 /** imagen principal de la pag**/
-main section img{
-    width: 100%;
-    height: auto;
+main section img {
+  width: 100%;
+  height: auto;
 }
 
-.modelos-disponibles1 h2{
-font-family: Arial, Helvetica, sans-serif;
-font-size: 30px;
-color: rgb(252, 3, 3);
-text-align: center;
-margin: 0;
+.modelos-disponibles1 h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: rgb(252, 3, 3);
+  text-align: center;
+  margin: 0;
 }
 /** botones modelos disponibles**/
-.ul-vehiculos{
-    margin: 0;
+.ul-vehiculos {
+  margin: 0;
 }
-.vehiculos-disponibles{
-    background-color: rgb(48, 49, 54);
-    display: flex;
-    justify-content: space-around;
-
+.vehiculos-disponibles {
+  background-color: rgb(48, 49, 54);
+  display: flex;
+  justify-content: space-around;
 }
-main section div ul .vehiculos-disponibles a{
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    padding: 18px;
+.div-vehiculos{
+  background-color: rgb(48, 49, 54);
+}
+main section div ul .vehiculos-disponibles a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 18px;
 }
 /** imagenes, referencias y precios de los vehiculos**/
-.section-carros-d{
-    display: flex;
-    justify-content:space-between;
-    flex-wrap: wrap;
-    
+.section-carros-d {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-main section .div-carros{
-    border: solid rgb(128, 126, 126);
-    width: 300px;
-    height: 405px;
-    margin: 15px;
-    
-    
+main section .div-carros {
+  border: solid rgb(128, 126, 126);
+  width: 300px;
+  height: 405px;
+  margin: 15px;
 }
-main section div h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 56;
+main section div h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 56;
 }
-main section div h3{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 56;
-    color: rgb(128, 126, 126);
+main section div h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 56;
+  color: rgb(128, 126, 126);
 }
-main section div h4{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 56;
-    font-weight:bold;
+main section div h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 56;
+  font-weight: bold;
 }
-.audi-a4{
-    width: 285px;
-    height: auto;
-    margin-top: 40px;
-    margin-bottom: 27px;
+.audi-a4 {
+  width: 285px;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 27px;
 }
-.audi-a6{
-    width: 285px;
-    height: auto;
-    margin-top: 20px;
-    margin-bottom: 28px;
+.audi-a6 {
+  width: 285px;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 28px;
 }
-.bmw-m55i{
-    width: 290px;
-    height: auto;
+.bmw-m55i {
+  width: 290px;
+  height: auto;
 }
-.bmw-m3{
-    width: 280px;
-    height: auto;
-    margin-bottom: 46px;
+.bmw-m3 {
+  width: 280px;
+  height: auto;
+  margin-bottom: 46px;
 }
-.mercedes-a35{
-    width: 320px;
-    height: auto;
-    
+.mercedes-a35 {
+  width: 320px;
+  height: auto;
 }
-.mercedes-a45{
-    width: 300px;
-    height: auto;
-    margin-top: 35px;
-    margin-bottom: 18px;
+.mercedes-a45 {
+  width: 300px;
+  height: auto;
+  margin-top: 35px;
+  margin-bottom: 18px;
 }
-.mercedes-glc{
-    width: 310px;
-    height: auto;
-    margin-top: 35px;
-    margin-bottom: 11px;
+.mercedes-glc {
+  width: 310px;
+  height: auto;
+  margin-top: 35px;
+  margin-bottom: 11px;
 }
-.bmw-x6{
-    width: 285px;
-    height: auto;
-    margin-top: 10px;
-    margin-bottom: 20px;
+.bmw-x6 {
+  width: 285px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
-.audi-ttcoupe{
-    width: 280px;
-    height: auto;
+.audi-ttcoupe {
+  width: 280px;
+  height: auto;
 }
-.bmw-m4{
-    width: 280px;
-    height: auto;
+.bmw-m4 {
+  width: 280px;
+  height: auto;
 }
-.audi-ttconvertible{
-    width: 310px;
-    height: auto;
+.audi-ttconvertible {
+  width: 310px;
+  height: auto;
 }
-.bmw-z4{
-    width: 280px;
-    height: auto;
-    margin-bottom: 38px;
+.bmw-z4 {
+  width: 280px;
+  height: auto;
+  margin-bottom: 38px;
 }
+
+
+
+
+
+
+
 /** footer**/
-footer{
-    background-color: rgb(48, 49, 54);
-    display: flex;
+footer {
+  background-color: rgba(48, 49, 54, 0.603);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer-1 {
+  width: 50%;
+}
+.footer-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-2 div{
+  display: flex;
     justify-content: space-evenly;
     align-items: center;
+    width: 100%;
+}
+footer div h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 56;
+  color: white;
+  font-weight: bold;
+}
+footer div p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+footer div h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 56;
+  text-align: center;
+}
+footer div h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 56;
+  text-align: center;
+  color: rgb(153, 6, 6);
+}
+.facebook {
+  width: 50px;
+  height: 50px;
+  
+}
+.twitter {
+  width: 50px;
+  height: 50px;
+}
+.instagram {
+  width: 50px;
+  height: 50px;
+}
+@media (max-width: 972px) {
+  .section-carros-d {
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 844px) {
+  .footer-2 iframe {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (max-width: 640px){
+  
+.vehiculos-disponibles {
+  background-color: rgb(48, 49, 54);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 
 }
-.footer-1{
-    width: 50%;
+.vehiculos-disponibles a{
+  width: 100%;
+  height: 10px;
+  text-align: center;
+  margin: 0;
 
 }
-footer div h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 56;
-    color: white;
-    font-weight: bold;
-    
 }
-footer div p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:20px;
+@media (max-width: 554px){
+  .logo{
+    width: 150px;
+    height: auto;
+  }
+  .motor-company-d h1{
+    font-size: 30px;
 
+  }
+  .telefono{
+    width: 20px;
+    height: 20px;
+  }
+  .llamenos-d > h2{
+    font-size: 15px;
+  }
+  
 }
-footer div h3{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 56;
-    text-align: center;
-}
-footer div h4{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 56;
-    text-align: center;
-    color: rgb(153, 6, 6);
-}
-.facebook{
-    width: 50px;
-    height: 50px;
-    margin-left: 30%;
-}
-.twitter{
-    width: 50px;
-    height: 50px;
-}
-.instagram{
-    width: 50px;
-    height: 50px;
-
+@media (max-width: 504px){
+  footer{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-1 h2{
+    font-size: 20px;
+  }
+  .footer-1 p{
+    font-size: 15px;
+  }
 }
 
 /** pagina agendarcita **/
-.agendamiento-taller > h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 56;
-    color: black;
-    text-align: center;
+.agendamiento-taller > h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 56;
+  color: black;
+  text-align: center;
+}
+.marcas-nuestras h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 56;
+  color: white;
+  background-color: rgb(48, 49, 54);
+  margin-bottom: 30px;
+}
+.logos-marcas {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.logos-marcas img {
+  width: 300px;
+  height: auto;
+}
 
+.que-tipos h2 {
+  font-family: Arial, Helvetica, sans-serif;
 
+  margin-top: 30px;
+  color: rgb(128, 126, 126);
 }
-.marcas-nuestras h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 56;
-    color: white;
-    background-color: rgb(48, 49, 54);
-    margin-bottom: 30px;
-    
+.servicios-prestan {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
 }
-.logos-marcas{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.servicios-prestan div {
+  width: 300px;
+  height: 200px;
+  margin: 15px;
+  display: flex;
+  align-items: center;
 }
-.logos-marcas img{
-    width: 300px;
+
+.servicios-prestan h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(128, 126, 126);
+  margin: 10px;
+}
+.servicios-prestan img {
+  width: 75px;
+  height: 75px;
+  margin: 10px;
+}
+@media (max-width: 948px){
+  .logos-marcas img{
+    width: 150px;
     height: auto;
-    
+  }
 }
-
-.que-tipos h2{
-    font-family: Arial, Helvetica, sans-serif;
-    
-    margin-top: 30px;
-    color: rgb(128, 126, 126);
-}
-.servicios-prestan{
+@media (max-width: 478px){
+  .logos-marcas{
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
-
-}
-.servicios-prestan div{
-    width: 300px;
-    height: 200px;
+  }
+  .logos-marcas img{
     margin: 15px;
-    display: flex;
-    align-items: center; 
+  }
+  .marcas-nuestras h2{
+    text-align: center;
+  }
 }
-
-.servicios-prestan h2{
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(128, 126, 126);
-    margin: 10px;
-}
-.servicios-prestan img{
-    width: 75px;
-    height: 75px;
-    margin: 10px;
-    
+@media (max-width: 410px){
+  .que-tipos h2{
+    text-align: center;
+  }
 }
 /** pag Financiamiento **/
 
-.financiamiento1{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 56;
-    background-color: rgb(48, 49, 54);
-    margin-top: 5px;
-    padding: 10px;
-    text-align: center;
+.financiamiento1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 56;
+  background-color: rgb(48, 49, 54);
+  margin-top: 5px;
+  padding: 10px;
+  text-align: center;
 }
-.div-grids{
-    display: grid;
-    grid-template-columns: 20% 40% 40%;
-    grid-template-rows: 500px 500px 500px;
-    
+.div-grids {
+  display: grid;
+  grid-template-columns: 20% 40% 40%;
+  grid-template-rows: 500px 500px 500px;
 }
-.parrafo-financiamiento p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16;
-    color: rgb(48, 49, 54);
-    margin-top: 38px;
-
-}
-.lista-financiamiento{
-    background-color: rgba(238, 63, 63, 0.432);
+.parrafo-financiamiento p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16;
+  color: rgb(48, 49, 54);
+  margin-top: 38px;
+  margin-left: 10px;
 }
 
-.lista-financiamiento div ul ol p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    color: rgb(252, 3, 3);
-    padding-left: 15px;
-    margin-top: 6px;
+.lista-financiamiento div ul ol p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: rgb(128, 126, 126);
 
+  margin-top: 6px;
 }
-.lista-beneficios{
-    grid-column-start: 2;
-    grid-column-end: 4;
-    
+.lista-beneficios {
+  grid-column-start: 2;
+  grid-column-end: 4;
 }
-.lista-beneficios > h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 45px;
-    text-align: center;
-
+.lista-beneficios > h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  text-align: center;
 }
-.lista-beneficios div div{
-    display: flex;
-    width: 450px;
-    margin: 15px;
-    margin-bottom: 40px;
+.lista-beneficios div div {
+  display: flex;
+  width: 450px;
+  margin: 15px;
+  margin-bottom: 40px;
 }
-.lista-beneficios div div > h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+.lista-beneficios div div > h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
-.lista-beneficios div div img{
-    width: 50px;
-    height: 50px;
+.lista-beneficios div div img {
+  width: 50px;
+  height: 50px;
 }
-.flex-beneficios{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.flex-beneficios {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-
-.lista-empleados-independientes{
-    background-color: rgba(134, 248, 210, 0.808);
-
+.lista-empleados-independientes h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60;
+  margin-left: 10px;
 }
-.lista-empleados-independientes h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 60;
+.lista-empleados-independientes ul li p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: rgb(128, 126, 126);
+  padding-left: 15px;
+  margin-top: 6px;
 }
-.lista-empleados-independientes ul li p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    color: rgb(128, 126, 126);
-    padding-left: 15px;
-    margin-top: 6px;
+.lista-empleados-independientes ul {
+  list-style: none;
 }
-.section-requisitos{
-    background-color: blueviolet;
-    grid-column-start: 2;
-    grid-column-end: 4;
-
+.section-requisitos {
+  grid-column-start: 2;
+  grid-column-end: 4;
 }
-.section-requisitos h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    text-align: center;
+.section-requisitos h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
 }
-.requisitos-minimos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.requisitos-minimos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
-.requisitos-minimos div{
-    margin: 15px;
-    width: 200px;
-    height: auto;
-    text-align: center;
+.requisitos-minimos div {
+  margin: 15px;
+  width: 200px;
+  height: auto;
+  text-align: center;
 }
-.requisitos-minimos img{
-    width: 180px;
-    height: auto;
+.requisitos-minimos img {
+  width: 150px;
+  height: auto;
 }
-.formulario-financiamiento{
-    height: 200px;
-    grid-column-start: 2;
-    grid-column-end: 4;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    
+.formulario-financiamiento {
+  height: 200px;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
