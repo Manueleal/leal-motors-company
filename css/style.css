@@ -206,6 +206,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  
 }
 .footer-1 {
   width: 50%;
@@ -500,4 +501,71 @@ footer div h4 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+/* pagina marcas*/
+.pag-marcas{
+  background-color: black;
+}
+.titulo-marcas h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: rgb(231, 229, 229);
+  text-align: center;
+  margin-bottom: 15px;
+
+}
+.titulo-marcas p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: rgb(231, 229, 229);
+  text-align: center;
+  margin-top: 15px;
+}
+.logo-negro{
+  
+  flex-wrap: wrap;
+}
+
+.logo-negro img{
+  width: 400px;
+  height: auto;
+  margin-left: 30px;
+}
+.prueba-ruta h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: rgb(231, 229, 229); 
+  margin-left: 18px;
+}
+
+.prueba-ruta p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color:rgb(231, 229, 229);
+  margin-left: 10px;
+  
+}
+
+.prueba-ruta div{
+  margin: 20px 20px 0 20px;
+  padding-bottom: 15px;
+}
+
+/* PAGINA PROMOCIONES*/
+
+.m-promociones img{
+  width: 40%;
+  height: auto;
+}
+.m-promociones div h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: blue;
+  text-align: center;
+}
+
+.m-promociones div p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  
 }
